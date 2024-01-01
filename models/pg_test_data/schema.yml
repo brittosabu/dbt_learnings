@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: dvdrental
+    description: 'sample database for testing'
+    database: dvdrental  
+    schema: public  
+    tables:
+      - name: rental
+        descrption: 'Details about the rental data'
+      - name: film
+        descrption: 'All available films'
+
+  # - name: stripe
+  #   tables:
+  #     - name: payments
